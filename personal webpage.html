@@ -4,51 +4,114 @@
     <meta charset="UTF-8">
     <title>AP2 Laboratory Practical Test</title>
     <style>
-      html{
-          scroll-behavior: smooth;
+      /* Global styling */
+      body {
+        background-color: #f4f6f8;
+        color: #2c3e50;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
       }
-      body{
-          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background-color: rgb(219, 210, 115);
-      }
-
-      footer{
-          color: white;
-          padding: 20px;
-          background-color: rgb(93, 75, 78);
-          text-align: center;
-      }
-
+    
+      /* Header as a card */
       header {
-          background-color: #e0f7fa;
-          max-width: 500px;
-          margin: 20px auto;
-          padding: 20px;
-          border-radius: 15px;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-          text-align: center;
+        background-color: #ffffff;
+        max-width: 800px;
+        margin: 40px auto 20px auto;
+        padding: 30px 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        text-align: center;
       }
-
-      a {
-          color: #0077cc;
-          text-decoration: none;
-          transition: color 0.3s ease;
+    
+      header h1 {
+        margin: 0 0 15px 0;
+        font-size: 2em;
+        color: #1a237e;
       }
-
-      a:hover {
-          color: #ff6600;
-          text-decoration: none;
-      }
-
+    
       img {
-          border-radius: 10px;
-          transition: transform 0.3s ease;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
       }
-
+    
       img:hover {
-          transform: scale(1.05);
+        transform: scale(1.05);
       }
-
+    
+      /* Section cards */
+      section {
+        background-color: #ffffff;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      }
+    
+      h2 {
+        color: #1a237e;
+        margin-top: 0;
+      }
+    
+      ul {
+        padding-left: 20px;
+      }
+    
+      a {
+        color: #1e88e5;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+    
+      a:hover {
+        color: #1565c0;
+        text-decoration: underline;
+      }
+    
+      #header-link {
+        display: inline-block;
+        background-color: #1e88e5;
+        color: white;
+        padding: 10px 16px;
+        border-radius: 8px;
+        margin-top: 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+    
+      #header-link:hover {
+        background-color: #1565c0;
+      }
+    
+      blockquote {
+        font-style: italic;
+        margin: 0;
+        padding-left: 20px;
+        border-left: 4px solid #1e88e5;
+        color: #555;
+      }
+    
+      cite {
+        display: block;
+        margin-top: 5px;
+        text-align: right;
+        color: #777;
+      }
+    
+      footer {
+        background-color: #e8eaed;
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+        margin-top: 40px;
+      }
+    
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
   </head>
   <body>
@@ -57,7 +120,7 @@
       <img src="images/Sarsonas2x2.jpg" height="200px" alt="boy on a gray background in a formal graduation attire">
     </header>
 
-    <section id="intro" style>
+    <section id="intro" >
       <p>Hi, I’m <strong>Josephus</strong> – but you can call me <strong>Sephus</strong>👋</p>
       <p>
         I’m an aspiring developer 💻 from the quiet town of Matab-ang in Toledo City, Cebu 🌄. I graduated from Toledo City Science High School 🏫 and am currently pursuing a Bachelor of Science in Information Systems at Cebu Technological University 🎓.
